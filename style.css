@@ -647,7 +647,7 @@ html {
     max-width: 1180px;
     display: grid;
     /* 5列布局 */
-    grid-template-columns: 2fr repeat(4, 1fr);
+    grid-template-columns: 1fr;
     padding: 0 80px;
     position: relative;
   }
@@ -667,7 +667,7 @@ html {
   
   /* 联系我们，靠左对齐 */
   .contact-us {
-    justify-self: start;
+    justify-self: center;
     color: var(--text-color-lightest);
   }
   
